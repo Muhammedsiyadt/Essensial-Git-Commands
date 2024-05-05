@@ -1,0 +1,39 @@
+
+"𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗚𝗶𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗗𝗲𝗺𝘆𝘀𝘁𝗶𝗳𝗶𝗲𝗱: 𝗔 𝗤𝘂𝗶𝗰𝗸 𝗥𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗚𝘂𝗶𝗱𝗲"
+
+1. 𝗴𝗶𝘁 𝗶𝗻𝗶𝘁: Initialize a new Git repository.
+   Start tracking changes in your project by setting up a new Git repository. "git init"
+2. 𝗴𝗶𝘁 𝗶𝗴𝗻𝗼𝗿𝗲: Specify files and directories to ignore in Git.
+   Prevent unnecessary files from being tracked in your repository with`.gitignore`. "echo "build/" >> .gitignore"
+3. 𝗴𝗶𝘁 𝗰𝗼𝗺𝗺𝗶𝘁: Record changes to the repository.
+   Save your work and create a checkpoint in your project's history with a commit. "git add . git commit -m"
+4. 𝗴𝗶𝘁 𝗹𝗼𝗴: View the commit history.
+   Explore the history of your project with a detailed list of commits. "git log"
+5. 𝗴𝗶𝘁 𝗮𝗱𝗱: Stage changes for commit.
+   Prepare changes to be committed by adding them to the staging area. "git add ."
+6. 𝗴𝗶𝘁 𝗰𝗵𝗲𝗰𝗸𝗼𝘂𝘁: Switch branches or restore files.
+   Move between different branches or revert files to a previous state. "git checkout master"
+7. 𝗴𝗶𝘁 𝗛𝗘𝗔𝗗: Reference the current commit.
+   Point to the latest commit on the currently checked-out branch. "git log HEAD"
+8. 𝗴𝗶𝘁 𝗿𝗲𝘀𝗲𝘁: Unstage changes or reset the repository state.
+   Remove changes from the staging area or reset the repository to a previous state. "git reset HEAD file.txt"
+9. 𝗴𝗶𝘁 𝗯𝗿𝗮𝗻𝗰𝗵: Manage branches in the repository.
+   Create, list, or delete branches to organize your project's development. "git branch feature-branch"
+10.𝗴𝗶𝘁 𝗺𝗲𝗿𝗴𝗲: Integrate changes from one branch into another.
+    Combine changes from a source branch into a target branch. "git merge feature-branch"
+11.𝗴𝗶𝘁 𝗖𝗢𝗡𝗙𝗟𝗜𝗖𝗧: Resolve merge conflicts between branches.
+   Address conflicts that arise when integrating changes from different branches.
+12.𝗴𝗶𝘁 𝗰𝗵𝗲𝗿𝗿𝘆-𝗽𝗶𝗰𝗸: Apply specific commits to the current branch.
+   Selectively apply changes from one branch to another. "git cherry-pick <commit-hash>"
+13.𝗴𝗶𝘁 𝗱𝗶𝗳𝗳: Show differences between commits, files, or branches. Compare changes to understand
+   the differences between different states of your project. "git diff"
+14.𝗴𝗶𝘁 𝗰𝗹𝗼𝗻𝗲: Copy a repository from a remote source.
+   Duplicate a repository from a remote server to your local machine. "git clone <repository-url>"
+15.𝗴𝗶𝘁 𝗽𝘂𝘀𝗵: Upload local changes to a remote repository.
+   Share your commits with others by pushing them to a remote server. "git push origin master"
+16.𝗴𝗶𝘁 𝗽𝘂𝗹𝗹: Fetch changes from a remote repository and integrate them locally.
+   Update your local repository with changes from a remote source.  "git pull origin master"
+17.𝗣𝘂𝗹𝗹 𝗿𝗲𝗾𝘂𝗲𝘀𝘁: Propose changes for merging into another branch.
+   Request a review and merge of your changes into a target branch in a collaborative workflow.
+
+
